@@ -1,0 +1,18 @@
+/* App.module.css */
+.container {
+  /* Limits the width to match your target image */
+  max-width: 400px; 
+  /* Centers the phonebook on the page */
+  margin: 0 auto;   
+  padding: 24px;
+  /* Stacks heading, form, search, and list vertically */
+  display: flex;
+  flex-direction: column; 
+  gap: 20px;
+}
+
+.title {
+  margin: 0;
+  font-size: 32px;
+  text-align: center; /* Optional: centers the "Phonebook" text */
+}
